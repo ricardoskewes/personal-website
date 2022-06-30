@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <%- include('partials/head') %>
+    <title><%= title %></title>
+  </head>
+
+  <body>
+    <%- include('partials/navigation') %>
+    <div class="main-container container-lg overflow-hidden">
+      <div class="row" id="container-2">
+        <div class="col-md-4" id="photo-cover"></div>
+        <div class="col-md-8" id="second-column">
+          <div class="jumbotron bg-light" id="jumbotron">
+            <h1 class="display-4"><span class="highlight">Welcome!</span></h1>
+            <p class="lead">
+              I'm Ricardo, a rising sophomore at Harvard College concentrating
+              in Physics and Computer Science, with a Secondary in Government
+              and a Citation in Chinese.
+            </p>
+            <hr class="my-4" />
+            <p>
+              This is a personal website: Feel free to explore! You will find
+              everything from pictures to my hobbies
+            </p>
+            <a class="btn btn-primary btn-lg" href="/about" role="button"
+              >About me</a
+            >
+            <a class="btn btn-secondary btn-lg" href="/projects" role="button"
+              >My projects</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="rect"></div>
+
+    <!-- <div class="container-xl">
+      <div class="row px-2 py-2 py-large-5 align-middle">
+        <div
+          class="col 12 col-md-4 p-2 my-2 mb-md-5 rounded"
+          id="photoCover"
+        ></div>
+        <div class="main-contents col-12 col-md-8 container px-4">
+          <div class="card bg-light m-lg-3">
+            <div class="card-body">
+              <figure>
+                <blockquote class="blockquote">
+                  <p id="quote-sentence">
+                    A well-known quote, contained in a blockquote element.
+                  </p>
+                </blockquote>
+                <figcaption class="blockquote-footer" id="quote-author">
+                  Someone famous in
+                  <cite title="Source Title">Source Title</cite>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="jumbotron m-3 bg-light">
+            <h1 class="display-4"><span class="highlight">Welcome!</span></h1>
+            <p class="lead">
+              I'm Ricardo, a freshman at Harvard College concentrating in
+              Physics/CS, with a Secondary in Government.
+            </p>
+            <hr class="my-4" />
+            <p>
+              This is a personal website: Feel free to explore! You will find
+              everything from pictures to my hobbies
+            </p>
+            <a class="btn btn-primary btn-lg" href="/aboutMe.html" role="button"
+              >About me</a
+            >
+          </div>
+        </div>
+      </div>
+      
+    </div> -->
+    <%- include('partials/footer') %>
+  </body>
+</html>

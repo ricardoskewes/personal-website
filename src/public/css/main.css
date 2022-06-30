@@ -1,0 +1,137 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  /* Backround created with https://www.magicpattern.design/tools/css-backgrounds */
+  background-color: #010101;
+  opacity: 1;
+  background-image: radial-gradient(
+    #45f75d 0.8500000000000001px,
+    #010101 0.8500000000000001px
+  );
+  background-size: 17px 17px;
+  height: 100%;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.text-primary,
+.text-secondary {
+  cursor: default;
+}
+
+.btn-primary {
+  background-color: #45f75d;
+  border-color: #45f75d;
+  color: #010101;
+}
+
+.btn-secondary {
+  background-color: #b0b0b0;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background-color: #45f7aa;
+  border-color: #45f7aa;
+  color: #010101;
+}
+
+.text-primary {
+  color: #45f75d !important;
+}
+
+/*Taken from https://dev.to/shubhamjain/how-to-create-marker-highlight-effect-in-css-be4*/
+.highlight {
+  background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=45f75d);
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+#photo-cover {
+  background: url(/css/fotoNYC.jpg);
+  background-size: cover;
+  background-position: 50% 80%;
+  min-height: 150px;
+}
+
+#container-2 {
+  padding: 1rem 1rem 70px 1rem;
+}
+
+#second-column {
+  padding: 2rem;
+}
+
+#jumbotron {
+  margin: 0;
+}
+
+@media (max-width: 767.98px) {
+  .main-container {
+    justify-content: flex-start;
+    height: auto;
+  }
+
+  #container-2 {
+    padding: 0 0 50px 0;
+  }
+
+  #jumbotron {
+    margin: 0;
+  }
+
+  #second-column {
+    padding: 2rem;
+  }
+}
+
+/* 
+.card > img {
+  width: 100%;
+  height: 30vw;
+  object-fit: cover;
+}
+
+.contents {
+  min-height: 200px;
+}
+
+.fig-with-caption {
+  width: 100%;
+  max-height: 50vh;
+  object-fit: cover;
+} */
+
+/* Medium devices (tablets, 768px and up) as defined by Bootstrap*/
+/* @media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+  .card > img {
+    height: 30vw;
+    object-fit: cover;
+  }
+}
+ */
